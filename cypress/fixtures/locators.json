@@ -1,0 +1,16 @@
+{
+    "registrationPage": {
+        "firstNameInputfield": "#first-name",
+        "lastNameInputField": "#last-name",
+        "emailInputField": "#email",
+        "passwordInputField": "#password",
+        "passwordConformation": "#password-confirmation",
+        "termsConformationInputField": ".form-check-label",
+        "submitButton": "button"
+    },
+    "loginPage": {
+        "emailInputField": "#email",
+        "passwordInputField": "#password",
+        "submitButton": "button"
+    }
+}

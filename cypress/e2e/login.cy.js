@@ -1,3 +1,4 @@
+
 describe("Login funcionality-Gallery app", () => {
     it("succesful login", () => {
         cy.visit("/login");
@@ -14,9 +15,9 @@ describe("Login funcionality-Gallery app", () => {
 
 
 
-        cy.get("#email").type("Blabluc2@gmail.com");
-        cy.get("#password").type("BlaBluc1992");
-        cy.get("button").click();
+        cy.get(locators.emailInputField).type("Blabluc2@gmail.com");
+        cy.get(locators.passwordInputField).type("BlaBluc1992");
+        cy.get(locators.submitButton).click();
 
     });
 
